@@ -102,6 +102,7 @@ int main()
             {
                 acc.balance += amount;
                 cout << "Вы успешно пополнили счёт. Новый баланс: " << acc.balance << " руб" << endl;
+                saveAccount(acc);
             }
             else
             {
