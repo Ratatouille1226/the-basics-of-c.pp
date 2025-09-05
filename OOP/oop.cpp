@@ -1,5 +1,4 @@
 #include <iostream>
-#include <windows.h>
 
 using namespace std;
 
@@ -37,8 +36,8 @@ public:
 
 int main()
 {
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
+    // SetConsoleOutputCP(CP_UTF8);
+    // SetConsoleCP(CP_UTF8);
 
     // Экземпляр героя 1
     Hero superman("Супермен", 120, 100); // Как выглядит с приватными полями и методом установки данных (ниже пример без инкапсуляции и конструктора)
